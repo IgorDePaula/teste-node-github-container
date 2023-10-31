@@ -41,6 +41,6 @@ jobs:
         with:
           context: .
           push: true
-          tags:
+          tags: |
             ghcr.io/igordepaula/teste-node-githubcontainer:${{ steps.version.outputs.value }}
             ghcr.io/igordepaula/teste-node-githubcontainer:latest
